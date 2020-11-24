@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box; 
+}
+body{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.84) 0%, rgba(84, 84, 84, 0) 100%),
+						url(../img/Screen_Shot_2020-11-19_at_10.32.09_PM.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 1140px;
+	display: flex;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-right: 2px solid #fff;
+	padding-right: 50px;
+	height: 500px;
+}
+
+.nav-list{
+	text-align: center;
+}
+.nav-link{
+	line-height: 3.5;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.nav-link:focus{
+	color: #ffff00;
+}
+.nav-link:hover{
+	padding: 20px 20px 15px 20px;
+    box-shadow: 0px 3px 0 0px #fff;
+    transition: 0.2s;
+	color: #ffff00;
+}
+.last{
+	padding-bottom: 50px;
+}
+.nav-button{
+	display: flex;
+	background-color: transparent;
+	align-items: center;
+	border: 1px solid #fff;
+	outline: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+.nav-button-subtext{
+	padding-left: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 60px;
+}
+.center{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;	
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 300px;
+}
+.title{
+	text-transform: uppercase;
+	font-family: 'Nosifer', cursive;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.1;
+}
+.subtext{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.link{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background-color: #ffff00;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
